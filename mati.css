@@ -1,0 +1,291 @@
+body{
+    color: white;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: white;
+    font-size: 35px;
+    margin: 0px;
+}
+h1 strong{
+    color: rgb(20, 180, 220);
+}
+h2{
+    color: white;
+    margin: 0px;
+    padding: 25px 10px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.header{
+    background-color: rgb(0, 101, 119) ;
+    height: 65px;
+    margin: 0px;
+}
+.logo{
+    margin: 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.menu ol, li{
+    padding: 0px 20px;
+    padding-bottom: 0px;
+    display: flex;
+}
+.header-h{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15%;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.hero{
+    background: linear-gradient( rgb(0, 101, 119), black);
+    height: 300px;
+    padding: 0px 15%;
+}
+.hero-h{
+    height: 300;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-image{
+    margin: 0px;
+}
+.hero-h img{
+    margin: 0px;
+    padding-top: 0px;
+    object-fit: cover; /*acomodar la imagen para que caiga en el espacio*/
+}
+
+
+
+
+
+
+
+
+
+
+
+.me{
+    background: linear-gradient( rgb(0, 101, 119), black);
+    height: 500px;
+    padding: 0px 15%;
+}
+.me h1{
+    padding: 40px 0%;
+}
+.me-details{
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.me img{
+    border: 3px solid rgb(20, 180, 220);
+    border-radius: 700px;
+    object-fit: cover;
+}
+.me-text{
+    width: 450px;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.project-title{
+    background-color: black;
+    padding: 60px 15%;
+}
+.project{
+    padding: 0px 15%;
+    background: linear-gradient( black,rgb(0, 101, 119));
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.project-article{
+    width: 470px;
+    margin: 0px 10px;
+    padding: 0px;
+    background: linear-gradient( rgb(0, 101, 119), black);
+    border: 1px solid white;
+    border-radius: 20px;
+    overflow: hidden;/*cortar la imagen para que caiga en el espacio*/
+}
+.project-image{
+    margin: 0px;
+    padding: 0px;
+}
+.project img{
+    object-fit: cover;
+}
+.project-details{
+    margin: -50px 20px 10px 20px;
+    padding: 0px 15px 10px 15px;
+    color: white;
+    border-radius: 20px;
+    background: linear-gradient( rgb(0, 101, 119), black);
+    position: relative;/*acomodar en cualquier lugar o sobre algo*/
+    text-align: center;
+}
+.project-details-title{
+    padding: 20px 0px 0px 0px;
+}
+.project-details-description{
+    padding-bottom: 15px;
+}
+.project-details-url{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: linear-gradient( black,rgb(0, 101, 119));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.experience-title{
+    background-color:  rgb(0, 101, 119);
+    padding: 60px 15%;
+}
+.experience{
+    padding: 0px 15%;
+    background: linear-gradient( rgb(0, 101, 119), black);
+}
+.experience-details{
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.experience-text{
+    padding-left: 20px;
+}
+.experience-image{
+    margin: 0px;
+}
+.experience img{
+    width: 430px;
+    margin: 15px;
+    border-radius: 15px ;
+}
+
+
+
+
+
+
+
+
+
+
+.contact{
+    height: 230px;
+    padding: 0px 15%;
+    background: linear-gradient( black,rgb(0, 101, 119));
+}
+.contact h1{
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.email input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+.email button{
+  background: transparent;
+  color: white;
+  padding: 5px 0;
+  border-radius: 5px;
+  width: 100px;
+  margin-top: 10px;
+}
+.social-link {
+    padding: 0px 20px;
+    background-repeat: no-repeat;
+    color: white;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+}
+.social-link.instagram{
+    background-image: url('../portafolio/images/instagram.svg');
+}
+.social-link.facebook{
+    background-image: url('../portafolio/images/facebook.svg');
+}
+.social-link.twitter{
+    background-image: url('../portafolio/images/twitter.svg');
+}
+
+
+
+
+
+
+
+
+.footer{
+    background-color: black;
+    padding: 0px 15%;
+    height: 45px;
+}
+
+@media screen and (max-width: 3000px) {
+    body{
+        border-left:  40px solid rgb(0, 101, 119);
+        border-right: 40px solid rgb(0, 101, 119);
+    }
+}
